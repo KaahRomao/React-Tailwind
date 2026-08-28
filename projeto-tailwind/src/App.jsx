@@ -10,16 +10,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="h-dvh w-dvw flex flex-col">
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Jogos" element={<Jogos />} />
-          <Route path="/Games" element={<Games />} />
-          <Route path="/Contato" element={<Contato />} />
+          <Route path="/Consoles" element={<Games />} />
+          <Route path="/PCs" element={<Contato />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }

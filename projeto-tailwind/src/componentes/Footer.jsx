@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div className="w-full h-fit bg-[#0A0F0D] flex items-center self-end justify-center p-2.5 gap-34">
       <section className="h-16 w-72 break-all: gap-4 bg-white/30 backdrop-blur-md border border-white/20 shadow-lg rounded-xl p-6 flex items-center justify-center">
-        <img src="/public/001-caminho-de-entrega.png" alt="" width={100} />
+        <img src="/001-caminho-de-entrega.png" alt="" width={100} />
         <p className="text-sm text-[#7109B6] font-bold">
           Receba seu pedido com rapidez e segurança.
         </p>

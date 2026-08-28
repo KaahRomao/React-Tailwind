@@ -3,22 +3,22 @@ function FeaturedProducts() {
     {
       nome: "Classic Runner Shoes",
       desc: "Confortável e estiloso para o dia a dia.",
-      img: "/public/images.jpeg",
+      img: "/images.jpeg",
     },
     {
       nome: "Marvel's Spider-Man 2",
       desc: "Uma nova aventura em Nova York.",
-      img: "/public/wdqw.jpeg",
+      img: "/wdqw.jpeg",
     },
     {
       nome: "Gaming Laptop",
       desc: "Alta performance para jogos e criação.",
-      img: "/public/adwfd.jpeg",
+      img: "/adwfd.jpeg",
     },
     {
       nome: "ROG Gaming PC",
       desc: "PC poderoso para a melhor experiência gamer.",
-      img: "/public/wq.jpeg",
+      img: "/wq.jpeg",
     },
   ];
 
