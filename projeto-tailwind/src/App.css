@@ -1,7 +1,6 @@
-* {
+*:not(article):not(article *) {
   background-color: #111111;
 }
-
 .active {
   color: violet;
 }

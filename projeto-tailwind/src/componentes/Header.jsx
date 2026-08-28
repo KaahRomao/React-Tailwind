@@ -5,19 +5,19 @@ import Carrinho from "../assets/001-vista-lateral-vazia-do-carrinho-de-compras.p
 
 function Header() {
   return (
-    <div className="w-full h-20 bg-[#0A0F0D] flex items-center justify-between gap-5">
+    <div className="w-full h-20 bg-[#0A0F0D] flex items-center justify-between gap-5 sticky">
       <img src={Logo} alt="" className="w-22 h-auto m-2.5 ml-14" />
       <nav className="flex items-center justify-between gap-6">
-        <li className="p-1.5 bg-[#1F2421] rounded-lg text-white hover:scale-105 hover:text-purple-600">
+        <li className="p-1.5 bg-[#1F2421] rounded-lg text-white hover:scale-105 hover:text-[#7109B6] hover: cursor-pointer ">
           Home
         </li>
-        <li className="p-1.5 bg-[#1F2421] rounded-lg text-white hover:scale-105 hover:text-purple-600">
+        <li className="p-1.5 bg-[#1F2421] rounded-lg text-white hover:scale-105 hover:text-[#7109B6] hover: cursor-pointer">
           produtos
         </li>
-        <li className="p-1.5 bg-[#1F2421] rounded-lg text-white hover:scale-105 hover:text-purple-600">
+        <li className="p-1.5 bg-[#1F2421] rounded-lg text-white hover:scale-105 hover:text-[#7109B6] hover: cursor-pointer">
           sobre
         </li>
-        <li className="p-1.5 bg-[#1F2421] rounded-lg text-white hover:scale-105 hover:text-purple-600">
+        <li className="p-1.5 bg-[#1F2421] rounded-lg text-white hover:scale-105 hover:text-[#7109B6] hover: cursor-pointer">
           Contato
         </li>
       </nav>
